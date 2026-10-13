@@ -4,9 +4,9 @@
   "description": "pruebas unitarias y análisis de seguridad",
   "main": "index.js",
   "scripts": {
-    "test": "node --test",
-    "coverage": "node --experimental-test-coverage --test"
-  },
+  "test": "node --test",
+  "coverage": "c8 --reporter=text --reporter=lcov node --test"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/idrakenmune/evaluacion-calidad-software.git"
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/idrakenmune/evaluacion-calidad-software/issues"
   },
-  "homepage": "https://github.com/idrakenmune/evaluacion-calidad-software#readme"
+  "homepage": "https://github.com/idrakenmune/evaluacion-calidad-software#readme",
+  "devDependencies": {
+    "c8": "^12.0.0"
+  }
 }
