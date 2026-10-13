@@ -1,0 +1,22 @@
+{
+  "name": "evaluacion-calidad-software",
+  "version": "1.0.0",
+  "description": "pruebas unitarias y análisis de seguridad",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "coverage": "node --experimental-test-coverage --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idrakenmune/evaluacion-calidad-software.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/idrakenmune/evaluacion-calidad-software/issues"
+  },
+  "homepage": "https://github.com/idrakenmune/evaluacion-calidad-software#readme"
+}
