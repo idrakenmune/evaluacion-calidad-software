@@ -24,4 +24,4 @@ Tomamos una calculadora hecha en JavaScript y le hicimos pruebas y revisiones de
 ## Integrantes
 
 - Millaray Silva
-- [Nombre de la compañera]
+- Constanza Andrade
